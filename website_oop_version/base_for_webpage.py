@@ -7,7 +7,7 @@ from contact_me import connect_section
 from style import local_css
 from snowflakes import snowflake_effect
 
-class ChloeWebApp(BaseWebPage):
+class ChloeWebsite(BaseWebPage):
     def __init__(self):
         super().__init__()
         self.lottie_coding = load_lottieurl("https://lottie.host/208d8c64-760f-4194-9330-b865f0b8e4f5/pPgWIHeYbr.json")
