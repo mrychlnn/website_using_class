@@ -1,11 +1,11 @@
 import streamlit as st
-from base_page import BaseWebPage
-from lottie_loader import load_lottieurl
-from header_for_website import header_section
-from about_me import about_me_section
-from contact_me import connect_section
-from style import local_css
-from snowflakes import snowflake_effect
+from website_oop_version.base_page import BaseWebPage
+from website_oop_version.lottie_loader import load_lottieurl
+from website_oop_version.header_for_website import header_section
+from website_oop_version.about_me import about_me_section
+from website_oop_version.contact_me import connect_section
+from website_oop_version.style import local_css
+from website_oop_version.snowflakes import snowflake_effect
 
 class ChloeWebsite(BaseWebPage):
     def __init__(self):
